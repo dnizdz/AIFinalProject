@@ -116,9 +116,9 @@
             this.numOfTerminusLabel.AutoSize = true;
             this.numOfTerminusLabel.Location = new System.Drawing.Point(3, 31);
             this.numOfTerminusLabel.Name = "numOfTerminusLabel";
-            this.numOfTerminusLabel.Size = new System.Drawing.Size(118, 13);
+            this.numOfTerminusLabel.Size = new System.Drawing.Size(110, 13);
             this.numOfTerminusLabel.TabIndex = 4;
-            this.numOfTerminusLabel.Text = "Number of bus terminus";
+            this.numOfTerminusLabel.Text = "Number of bus station";
             // 
             // browseButton
             // 
@@ -146,9 +146,9 @@
             this.numOfTerminusComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.numOfTerminusComboBox.Enabled = false;
             this.numOfTerminusComboBox.FormattingEnabled = true;
-            this.numOfTerminusComboBox.Location = new System.Drawing.Point(127, 28);
+            this.numOfTerminusComboBox.Location = new System.Drawing.Point(119, 28);
             this.numOfTerminusComboBox.Name = "numOfTerminusComboBox";
-            this.numOfTerminusComboBox.Size = new System.Drawing.Size(111, 21);
+            this.numOfTerminusComboBox.Size = new System.Drawing.Size(119, 21);
             this.numOfTerminusComboBox.TabIndex = 1;
             // 
             // chooseFileLabel
@@ -258,7 +258,7 @@
             this.MinimumSize = new System.Drawing.Size(500, 500);
             this.Name = "MainWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Bus Terminus Positioning System";
+            this.Text = "Bus Station Positioning System";
             this.Activated += new System.EventHandler(this.MainWindow_Activated);
             this.mainTableLayoutPanel.ResumeLayout(false);
             this.leftTableLayoutPanel.ResumeLayout(false);

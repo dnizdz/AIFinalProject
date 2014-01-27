@@ -319,7 +319,7 @@ namespace AIFinalProject {
 
         private void aboutButton_Click(object sender, EventArgs e) {
             String content = "CS206 - Artificial Intelligence Final Project\n";
-            content += "\nBus Terminus Positioning System\n";
+            content += "\nBus Station Positioning System\n";
             content += "-----------------------------------\n";
             content += "\nCreated by: Jason Wihardja and Okka Sudaryanto";
 

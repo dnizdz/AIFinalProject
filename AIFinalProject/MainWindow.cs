@@ -292,7 +292,7 @@ namespace AIFinalProject {
                     p.X = Math.Abs(p.X);
                     p.Y = Math.Abs(p.Y);
 
-                    String printedContent = "Terminus " + (i + 1) + ": ";
+                    String printedContent = "Station " + (i + 1) + ": ";
 
                     printedContent += Math.Truncate(p.Y);
                     printedContent += (Char)176;
